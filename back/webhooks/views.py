@@ -7,7 +7,7 @@ from .models import Tarea
 from google import genai 
 
 # NUEVO: Así se inicializa el cliente ahora
-client = genai.Client(api_key="AIzaSyCEvYQFpJkIpoTEH3B-knpzDi4R_-riDdU")
+client = genai.Client(api_key="TU_API_KEY_AQUÍ")  # Reemplaza con tu API Key real
 
 def extraer_datos_tarea(texto_usuario):
     prompt = f"""
